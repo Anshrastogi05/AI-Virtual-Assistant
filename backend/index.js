@@ -20,7 +20,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "ai-virtual-assistant-iv65kzotj-ansh-777s-projects.vercel.app",
+      "https://ai-virtual-assistant-rosy.vercel.app",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
