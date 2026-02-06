@@ -36,7 +36,9 @@ app.use(cookieParser());
 
 app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
-
+app.use("/health", (req, res) => {
+  res.status(200).json({ message: "Server is healthy!" });
+});
 /* -------------------- SERVER -------------------- */
 
 // Connect DB first, then start server
