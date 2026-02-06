@@ -20,7 +20,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://ai-virtual-assistant-1ysg.onrender.com",
+      "https://ai-virtual-assistant-85iq.onrender.com",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
